@@ -96,3 +96,13 @@ table header. Git only compares text; it does not understand what the lines mean
 It cannot know whether we want Aung's row, Peter's row, or both, or in which
 order. If Git guessed wrong, it could silently delete someone's work, so it stops
 and asks a person to decide.
+
+## 4. Git Contribution Summary
+
+Output of `git shortlog -sn`:
+
+```
+     7  Aung Kyaw Phyo
+     5  L Peter San Awng
+     4  Thin Thiri Zaw
+```
