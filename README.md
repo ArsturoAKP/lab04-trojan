@@ -82,10 +82,10 @@ work together. You can see it in the history with `git log --oneline --graph`.
    members:
 
    | Member | Role | Assigned File |
-   |---|---|---|
-   | Aung Kyaw Phyo | Leader | test_deposit.py, test_shared.py & conftest.py |
-   | L Peter San Awng | Collaborator | test_withdraw.py |
-   | Thin Thiri Zaw | Collaborator | test_teardown.py |
+   |---|---|---|---|
+   | Aung Kyaw Phyo | 6705142012 | Leader | test_deposit.py, test_shared.py & conftest.py |
+   | L Peter San Awng | 6705142021 | Collaborator | test_withdraw.py |
+   | Thin Thiri Zaw | 6705142020 | Collaborator | test_teardown.py |
 
 ### Why Git could not fix it automatically
 
@@ -102,9 +102,9 @@ and asks a person to decide.
 Output of `git shortlog -sn`:
 
 ```
-     7  Aung Kyaw Phyo
-     5  L Peter San Awng
-     4  Thin Thiri Zaw
+     10  Aung Kyaw Phyo
+     7  L Peter San Awng
+     7  Thin Thiri Zaw
 ```
 
 ## 5. Reflection Questions
@@ -116,3 +116,11 @@ Peter's and Thiri's pushes were rejected because Aung had already pushed a new c
 **2. Why could Git not resolve the README conflict automatically?**
 
 Aung and Peter both added a different row at the same place in the README table, starting from the same version of the file. Git only compares lines of text and cannot know which row to keep, so it asked us to decide.
+
+**3. What is the difference between committing and pushing?**
+
+Committing saves a snapshot of our changes in the local repository on our own computer only. Pushing uploads those commits to GitHub so that teammates can see and download them.
+
+**4. How do fixtures reduce duplicated setup code in tests?**
+
+A fixture writes the setup code once, such as creating `BankAccount(100)`, and pytest passes a fresh copy to every test that asks for it. Our `funded_account` fixture in `conftest.py` is shared across test files, so `test_shared.py` can use it without importing or rewriting it.
