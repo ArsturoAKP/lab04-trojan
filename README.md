@@ -59,8 +59,8 @@ Git wrote these markers into Peter's README.md:
 
 We decided to **keep both rows**, because each row belongs to a different member
 and both are correct. Choosing only one row would have deleted a teammate's
-information. Peter deleted only the three marker lines (`<<<<<<<`, `=======`,
-`>>>>>>>`), kept both rows, and then ran:
+information. Peter deleted only the three marker lines (`<<<<<<< HEAD`, `=======`,
+`>>>>>>> ce66ef6`), kept both rows, and then ran:
 
 ```
 git add README.md
@@ -103,8 +103,8 @@ Output of `git shortlog -sn`:
 
 ```
      10  Aung Kyaw Phyo
-     7  L Peter San Awng
-     7  Thin Thiri Zaw
+     8  L Peter San Awng
+     8  Thin Thiri Zaw
 ```
 
 ## 5. Reflection Questions
