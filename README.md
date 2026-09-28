@@ -10,7 +10,7 @@
 | Member | ID | Role | Assigned File |
 |---|---|---|---|
 | L Peter San Awng | 6705142021 | Collaborator |  test_withdraw.py |
-| Aung Kyaw Phyo | 6705142012 | Leader | test_deposit.py, test_shared.pt & conftest.py |
+| Aung Kyaw Phyo | 6705142012 | Leader | test_deposit.py, test_shared.py & conftest.py |
 | Thin Thiri Zaw | 6705142020 | Collaborator | test_teardown.py |
 
 ## 3. Our Merge Conflict
@@ -81,7 +81,7 @@ work together. You can see it in the history with `git log --oneline --graph`.
    added her own row below them, and pushed again. The final table has all three
    members:
 
-   | Member | Role | Assigned File |
+   | Member | ID | Role | Assigned File |
    |---|---|---|---|
    | Aung Kyaw Phyo | 6705142012 | Leader | test_deposit.py, test_shared.py & conftest.py |
    | L Peter San Awng | 6705142021 | Collaborator | test_withdraw.py |
@@ -102,9 +102,9 @@ and asks a person to decide.
 Output of `git shortlog -sn`:
 
 ```
-     13  Aung Kyaw Phyo
-     9  L Peter San Awng
-     8  Thin Thiri Zaw
+     13  ArsturoAKP
+     10  L Peter San Awng
+     8  6705142020-sketch
 ```
 
 ## 5. Reflection Questions
