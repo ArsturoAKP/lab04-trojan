@@ -103,8 +103,8 @@ Output of `git shortlog -sn`:
 
 ```
      10  Aung Kyaw Phyo
-     7  L Peter San Awng
-     7  Thin Thiri Zaw
+     8  L Peter San Awng
+     8  Thin Thiri Zaw
 ```
 
 ## 5. Reflection Questions
