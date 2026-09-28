@@ -102,8 +102,8 @@ and asks a person to decide.
 Output of `git shortlog -sn`:
 
 ```
-     10  Aung Kyaw Phyo
-     8  L Peter San Awng
+     13  Aung Kyaw Phyo
+     9  L Peter San Awng
      8  Thin Thiri Zaw
 ```
 
