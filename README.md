@@ -1,6 +1,9 @@
 # lab04-trojan
 **Course:** 192-211 Automated Software Testing
 **Repository:** lab04-trojan
+
+## 1. Group Name 
+**Name:** Trojan
 **Members:** Aung Kyaw Phyo (Leader), L Peter San Awng, Thin Thiri Zaw
 
 ## 2. Who Did What
