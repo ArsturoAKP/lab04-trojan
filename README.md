@@ -110,12 +110,9 @@ Output of `git shortlog -sn`:
 ## 5. Reflection Questions
 
 **1. Why was your push rejected, and how did you fix it?**
-Peter's and Thiri's pushes were rejected because Aung had already pushed a new
-commit to GitHub, so their local copies were out of date. They fixed it by running
-`git pull origin main` to download the new commit, combining the README changes,
-and then running `git push` again.
+
+Peter's and Thiri's pushes were rejected because Aung had already pushed a new commit to GitHub, so their local copies were out of date. They fixed it by running `git pull origin main` to download the new commit, combining the README changes, and then running `git push` again.
 
 **2. Why could Git not resolve the README conflict automatically?**
-Aung and Peter both added a different row at the same place in the README table,
-starting from the same version of the file. Git only compares lines of text and
-cannot know which row to keep, so it asked us to decide.
+
+Aung and Peter both added a different row at the same place in the README table, starting from the same version of the file. Git only compares lines of text and cannot know which row to keep, so it asked us to decide.
